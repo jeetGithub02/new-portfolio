@@ -1,0 +1,56 @@
+@media screen and (max-width:599px) {
+        #navItems{
+            display: block;
+            position: fixed;
+            bottom:0px;
+            z-index: 100;
+            right:0px;
+            left: 0px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            text-align: center;
+            padding:8px;
+            background-color: rgba(245, 243, 243, 0.4);
+            backdrop-filter: blur(5px);
+            font-size: 12px;
+            
+        }
+        #navItems .bi{
+            font-size: 18px;
+        }
+        
+       
+}   
+
+#bottomNavItems{
+    display: none;
+}
+
+.aboutArrow{
+    position: absolute;
+    right:-13px;
+    transition: 0.4s all;
+    font-size:25px;
+}
+.aboutBtn:hover .aboutArrow{
+
+    right:-18px;
+    
+}
+.technologyList div{
+    border:1px solid darkgray;
+    padding:3px 8px;
+    border-radius: 20px;
+}   
+.aboutBox>div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#aboutCard{
+    position: fixed;
+    z-index: 200;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
